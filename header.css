@@ -1,0 +1,42 @@
+.searchbox1{
+  display:block;
+}
+
+.header{
+  background-color:white;
+  height:60px;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  border-bottom-width:1px;
+  border-bottom-style:solid;
+  border-color:rgb(231, 231, 231);
+  z-index: 10;
+}
+
+.left-div{
+ width:80px;
+ display: flex;
+ 
+}
+
+.middle-div{
+  flex:1;
+  max-width:400px;
+  margin-left:70px;
+  margin-right:20px;
+  display:flex;
+}
+
+.right-div{
+ display:flex;
+ width :200px;
+ justify-content: space-between;
+ align-items: center;
+}
+

@@ -1,0 +1,24 @@
+.sidebar{
+  position: fixed;
+  left: 0;
+  top: 56px;
+  bottom: 0;
+  background-color: white;
+  width: 72px;
+  padding-top: 5px;
+  z-index: 200;
+  font-family: arial;
+}
+.icons1{
+  width:24px;
+  margin-bottom:3px;
+}
+.icons-name{
+  font-size: 10px;
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
